@@ -46,7 +46,7 @@ def filter(index, datas):
 index = 0
 
 for page in range(1, 11):
-    url = f"https://forum.mir4global.com/rank?ranktype=1&worldgroupid=15&worldid=181&classtype=&searchname=&loaded=1&liststyle=ol&page={page}"
+    url = f"https://forum.mir4global.com/rank?ranktype=1&worldgroupid=15&worldid=182&classtype=&searchname=&loaded=1&liststyle=ol&page={page}"
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
     datas = []
