@@ -30,7 +30,7 @@ def filter(index, datas):
         if name != nickname:
             guild = name
     
-    arquivo.write(f"{index},: {nickname} , {power} , {guild}\n")
+    arquivo.write(f"{index} : {nickname} : {power} : {guild}\n")
     
     #print(f"{index}: {nickname} - {power} - {guild}")
     
